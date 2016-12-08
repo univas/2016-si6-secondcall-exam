@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employees</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<aside>
+    <h1>Employees</h1>
+
+    <form action="" method="POST">
+        <div>
+            <label for="employeeId">Employee Id:</label>
+            <input type="number" id="employeeId">
+        </div>
+        <input type="submit" value="Get employee information">
+    </form>
+
+    <section>
+        <h2 id="name">Edy Segura</h2>
+        <p>E-mail: <span id="email">edysegura@gmail.com</span></p>
+        <p>Job title: <span id="jobTitle">Software Engineer</span></p>
+        <p>Age: <span id="age">33</span> years old</p>
+        <img id="photo" src="http://lorempixel.com/128/128/cats" alt="">
+    </section>
+</aside>
+
+<script src="vendor/jquery.min.js"></script>
+<script src="js/employeeController.js"></script>
+</body>
+</html>

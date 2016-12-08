@@ -1,0 +1,15 @@
+{
+  "name": "2016-si6-secondcall-exam",
+  "version": "1.0.0",
+  "description": "2016 - SI6 Second call exam",
+  "keywords": [
+    "Exam",
+    "Univas"
+  ],
+  "author": "Edy Segura",
+  "license": "ISC",
+    "devDependencies": {
+    "faker": "^3.1.0",
+    "pad": "^1.0.2"
+  }
+}
