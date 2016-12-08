@@ -6,6 +6,9 @@
     "Exam",
     "Univas"
   ],
+  "scripts": {
+    "postinstall": "node ./scripts/generate-employeesDB.js"
+  },
   "author": "Edy Segura",
   "license": "ISC",
     "devDependencies": {
